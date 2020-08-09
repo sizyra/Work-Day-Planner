@@ -8,3 +8,5 @@ Workday 1:
 
 Workday 2: 
     Created js/jQuery code to display current date/time and to alter hour block color based on present time (gray for past, red for present, green for future).
+
+    Established start of code to save typed items to local storage in appropriate hourblock, but am struggling to refine this.

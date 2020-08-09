@@ -14,7 +14,14 @@ function update() {
         } else {
             $(this).find('textarea').addClass('present');
         }
+
+        $(this).find('textare').val(localStorage.getItem(hours));
     })
 };
 
+$('#button9').on('click', function() {
+    var textNine = $('#text9').val;
+
+    localStorage.setItem($('.hourblock').data('hours'), textNine);
+})
 update();
