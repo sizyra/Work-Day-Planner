@@ -5,3 +5,6 @@ Desc:
 
 Workday 1:
     Set up basic formatting of day planner, including 8 rows with a time, event space, and save icon.
+
+Workday 2: 
+    Created js/jQuery code to display current date/time and to alter hour block color based on present time (gray for past, red for present, green for future).

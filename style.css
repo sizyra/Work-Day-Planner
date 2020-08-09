@@ -1,0 +1,15 @@
+textarea {
+    width: 100%;
+}
+
+textarea.past {
+    background-color: grey;
+}
+
+textarea.present {
+    background-color: red;
+}
+
+textarea.future {
+    background-color: green;
+}
