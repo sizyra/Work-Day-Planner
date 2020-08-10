@@ -1,3 +1,5 @@
+var textArea = document.getElementsByTagName('textarea');
+
 function update() {
     var today = new Date()
     
@@ -20,7 +22,7 @@ function update() {
 };
 
 $('#button9').on('click', function() {
-    var textNine = $('#text9').val;
+    var textValue = $(this).closest('.hourblock').textArea.val();
 
     localStorage.setItem($('.hourblock').data('hours'), textNine);
 })
