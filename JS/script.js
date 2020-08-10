@@ -1,5 +1,3 @@
-var textArea = document.getElementsByTagName('textarea');
-
 function update() {
     var today = new Date()
     
@@ -17,13 +15,13 @@ function update() {
             $(this).find('textarea').addClass('present');
         }
 
-        $(this).find('textare').val(localStorage.getItem(hours));
+        $(this).find('textarea').val(localStorage.getItem(hours));
     })
 };
 
-$('#button9').on('click', function() {
-    var textValue = $(this).closest('.hourblock').textArea.val();
+$('button').on('click', function() {
+    var textValue = $(this).closest('.hourblock').find('textarea').val();
 
-    localStorage.setItem($('.hourblock').data('hours'), textNine);
+    localStorage.setItem($(this).closest('.hourblock').data('hours'), textValue);
 })
 update();
