@@ -4,6 +4,7 @@ textarea {
 
 textarea.past {
     background-color: grey;
+    color: white;
 }
 
 textarea.present {
